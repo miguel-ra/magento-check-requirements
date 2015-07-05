@@ -57,3 +57,8 @@ function extension_check($extensions) {
 	}
 }
 ?>
+<small>
+	<p>* Remember give permissions on folders<br>
+	find . -type f -exec chmod 644 {} \;<br>
+	find . -type d -exec chmod 755 {} \;</p>
+</small>
